@@ -24,14 +24,14 @@ int main(){
 
     // bucle para seguir leyendo
     // while (1) = infinito, sigue andando hasta que el operador lo detiene
-    while(1){
+    while(num != 0){
         
         //imprime la cantidad de veces que se ejecuta el programa
-        printf("N°%d: ",contador +1);
+        printf("N°%d: ",contador + 1);
         scanf("%d", &num);
         
         if (num == 0){
-            break;
+            break;  // cambiar en otro momento no le gusta al profe
         }
         else if (num > mayor) mayor = num;
         else if (num < menor) menor = num;
